@@ -1,0 +1,16 @@
+Source: shelm
+Section: misc
+Priority: optional
+Maintainer: Alexander Danilov <alex@x220.lan>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Homepage: https://github.com/daapp/shelm
+
+Package: shelm
+Architecture: all
+Depends:
+ ${misc:Depends}, bash, elm-compiler
+Description: Bash wrapper around Elm
+ shelm is a bash wrapper around the elm tool that allows bypassing the Elm packaging infrastructure.
