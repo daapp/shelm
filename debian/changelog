@@ -1,0 +1,5 @@
+shelm (2025.12.03-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Alexander Danilov <alex@x220.lan>  Wed, 03 Dec 2025 18:50:54 +0300
